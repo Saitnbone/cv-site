@@ -1,0 +1,50 @@
+/* Общие стили для проекта */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-inline-size: 280px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  background: rgb(12, 13, 46);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+picture {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
